@@ -1,0 +1,25 @@
+﻿          页面
+
+
+药品目录查询  index.html
+药品目录维护 medicine_maintain.html
+药品目录控制  medicine_control.html
+采购单创建    purchase_new.html
+采购单查询    purchase_search.html
+采购单维护    purchase_maintain.html
+采购入库      purchase_put.html
+退货单创建    back_new .html
+退货单查询    back_search.html
+退货单维护    back_maintain.html
+按药物统计      statistics_medicine.html
+按医院统计      statistics_hospital.html
+按供应商统计    statistics_supplier.html
+交易明细查询    statistics_business.html
+设置-》tools     root_tools.html
+设置-》seo Setting   root_seo.hrml
+目录-》信息    information.html
+目录-》日历     calendar.html
+目录-》FAQ      faq.html
+用户-》用户列表   user_list.html
+用户-》search      user_search.html
+用户-》权限        user_power.html
