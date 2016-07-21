@@ -1,0 +1,59 @@
+﻿          页面
+
+
+药品目录查询  medicine_search.html
+药品目录维护 medicine_maintain.html
+药品目录控制  medicine_control.html
+
+采购单创建    purchase_new.html
+采购单查询    purchase_search.html
+采购单维护    purchase_maintain.html
+采购入库      purchase_put.html
+采购单审批    purchase_ratify.html
+
+退货单创建    back_new .html
+退货单查询    back_search.html
+退货单维护    back_maintain.html
+退货单审批   back_ratify.html
+
+按药物统计      statistics_medicine.html
+按医院统计      statistics_hospital.html
+按供应商统计    statistics_supplier.html
+交易明细查询    statistics_business.html
+
+设置-》日志     root_journal.html
+设置-》建议列表    root_suggest.html
+设置-》seo Setting   root_seo.html
+目录-》信息    information.html 
+目录-》FAQ      faq.html
+用户-》用户列表   user_list.html
+用户-》权限        user_power.html
+意见反馈          root_propose.html
+修改密码            modify_passwd.html
+
+登陆界面/注销后跳转页面           login.html(非iframe)
+主页                           index.html(非iframe)
+主页默认iframe            index_public.html               ----------ok
+
+用户组
+市卫生机构
+      没有的选项卡：
+		“设置”该项及其以下的目录
+		采购单创建
+		退货单创建
+		采购单维护 
+		退货单维护
+		
+市及其以下医疗机构
+   没有的选项卡：
+		“设置”该项及其以下的目录
+		“用户”该项及其一下目录
+		采购单审批
+		退货单审批
+		
+
+root设计者：
+	拥有所有的选项卡
+
+
+		
