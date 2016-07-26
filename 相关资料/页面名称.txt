@@ -16,23 +16,23 @@
 退货单维护    back_maintain.html
 退货单审批   back_ratify.html
 
-按药物统计      statistics_medicine.html
-按医院统计      statistics_hospital.html
-按供应商统计    statistics_supplier.html
-交易明细查询    statistics_business.html
+按药物统计      statistics_medicine.html     -----------ok
+按医院统计      statistics_hospital.html     -----------ok
+按供应商统计    statistics_supplier.html    -----------ok
+交易明细查询    statistics_business.html    -----------ok
 
-设置-》日志     root_journal.html
-设置-》建议列表    root_suggest.html
-设置-》seo Setting   root_seo.html
-目录-》信息    information.html 
-目录-》FAQ      faq.html
-用户-》用户列表   user_list.html
-用户-》权限        user_power.html
-意见反馈          root_propose.html
-修改密码            modify_passwd.html
+设置-》日志     root_journal.html               -----------------ok
+设置-》建议列表    root_suggest.html             --------------ok
+设置-》seo Setting   root_seo.html               --------------modifying
+目录-》信息    information.html                  -----------------ok     
+目录-》操作手册      help.html                     -------------ok
+用户-》用户列表   user_list.html                    -------------ok
+用户-》权限        user_power.html               --------------modifying
+意见反馈          root_propose.html               -----------ok
+修改密码            modify_passwd.html                  -----------------ok
 
-登陆界面/注销后跳转页面           login.html(非iframe)
-主页                           index.html(非iframe)
+登陆界面/注销后跳转页面           login.html(非iframe)    -----------ok（通过index模态对话框实现）
+主页                           index.html(非iframe)       ----------ok
 主页默认iframe            index_public.html               ----------ok
 
 用户组

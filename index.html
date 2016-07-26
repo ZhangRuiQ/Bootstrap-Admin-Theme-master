@@ -130,7 +130,7 @@
                             <div id="collapseOne" class="accordion-body collapse in">
                               <div class="accordion-inner"><i class="icon-star"></i> <a class="inner_navigation" href="medicine_search.html" target="iframe1">药品目录查询</a></div>
                               <div class="accordion-inner"><i class="icon-star"></i> <a  class="inner_navigation" href="medicine_maintain.html" target="iframe1">药品目录维护</a></div>
-                              <div class="accordion-inner"><i class="icon-star"></i> <a class="inner_navigation" href="medicine_control.html" target="iframe1">药品目录控制</a></div>
+                              <div class="accordion-inner"><i class="icon-star"></i> <a class="inner_navigation" href="medicine_control.html" target="iframe1">供货目录控制</a></div>
                             </div>
                           </div>
                           <div class="accordion-group">
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                     </div>
-                     <iframe  name="iframe1" style="zoom: 0.8;" height="840" src="index_public.html" frameBorder="0" width="100%"></iframe> 
+                     <iframe  name="iframe1" id="frame1" style="zoom: 0.8;" height="840" src="index_public.html" frameBorder="0" width="100%"></iframe> 
                 </div>
             </div>
             <hr>
@@ -210,7 +210,9 @@
         <script src="assets/scripts.js"></script>
         <script>
         $(function() {
+  
             // Easy pie charts
+            $("#frame1").attr("src","index_public.html");
             $('.chart').easyPieChart({animate: 1000});
         });
 		
