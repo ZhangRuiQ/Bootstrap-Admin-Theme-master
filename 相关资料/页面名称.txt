@@ -1,59 +1,38 @@
 ﻿          页面
 
-
-药品目录查询  medicine_search.html
-药品目录维护 medicine_maintain.html
-药品目录控制  medicine_control.html
-
-采购单创建    purchase_new.html
-采购单查询    purchase_search.html
-采购单维护    purchase_maintain.html
-采购入库      purchase_put.html
-采购单审批    purchase_ratify.html
-
-退货单创建    back_new .html
-退货单查询    back_search.html
-退货单维护    back_maintain.html
-退货单审批   back_ratify.html
-
-按药物统计      statistics_medicine.html     -----------ok
-按医院统计      statistics_hospital.html     -----------ok
-按供应商统计    statistics_supplier.html    -----------ok
-交易明细查询    statistics_business.html    -----------ok
-
-设置-》日志     root_journal.html               -----------------ok
-设置-》建议列表    root_suggest.html             --------------ok
-设置-》seo Setting   root_seo.html               --------------modifying
-目录-》信息    information.html                  -----------------ok     
-目录-》操作手册      help.html                     -------------ok
-用户-》用户列表   user_list.html                    -------------ok
-用户-》权限        user_power.html               --------------modifying
-意见反馈          root_propose.html               -----------ok
-修改密码            modify_passwd.html                  -----------------ok
-
-登陆界面/注销后跳转页面           login.html(非iframe)    -----------ok（通过index模态对话框实现）
-主页                           index.html(非iframe)       ----------ok
-主页默认iframe            index_public.html               ----------ok
-
-用户组
-市卫生机构
-      没有的选项卡：
-		“设置”该项及其以下的目录
-		采购单创建
-		退货单创建
-		采购单维护 
-		退货单维护
+	医疗机构页面
 		
-市及其以下医疗机构
-   没有的选项卡：
-		“设置”该项及其以下的目录
-		“用户”该项及其一下目录
-		采购单审批
-		退货单审批
-		
+		药品目录查询  medical_search.html
+		采购入库      purchase_put.html
+		采购单创建    purchase_new.html
+		采购单查询    purchase_search.html
+		退货单创建    back_new .html
+		退货单查询    back_search.html
+		按药物统计      statistics_medicine.html     -----------ok
+		按供应商统计    statistics_supplier.html    -----------ok
+		交易明细查询    statistics_business.html    -----------ok
+		主页                           index.html(非iframe)       ----------ok
+		主页默认iframe            index_public.html               ----------ok
+	市卫生局：
 
-root设计者：
-	拥有所有的选项卡
+		药品目录维护 medicine_maintain.html
+		药品目录控制  medicine_control.html
+		采购单查询    purchase_search.html
+		退货单查询    back_search.html
+		采购单审批    purchase_ratify.html
+		退货单审批   back_ratify.html
+		按药物统计      statistics_medicine.html     -----------ok
+		按医院统计      statistics_hospital.html     -----------ok
+		按供应商统计    statistics_supplier.html    -----------ok
+		交易明细查询    statistics_business.html    -----------ok
+		用户-》用户列表   user_list.html                    -------------ok
+		用户-》公告维护   modify_public.html    
+		主页                           index.html(非iframe)       ----------ok
+		主页默认iframe            index_public.html               ----------ok	
+	通用操作
+		目录-》信息    information.html                  -----------------ok     
+		目录-》操作手册      help.html                     -------------ok
+		意见反馈          root_propose.html               -----------ok
+		修改密码            modify_passwd.html                  -----------------ok
+		登陆界面/注销后跳转页面           login.html   -----------ok
 
-
-		
